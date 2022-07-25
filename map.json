@@ -10536,7 +10536,7 @@
         {
          "columns":20,
          "firstgid":217980,
-         "image":"..\/wa-cfdp\/tilesets\/Anm_heal_003.png",
+         "image":"tilesets\/Anm_heal_003.png",
          "imageheight":512,
          "imagewidth":640,
          "margin":0,
