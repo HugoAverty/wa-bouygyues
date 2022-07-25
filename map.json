@@ -154,7 +154,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"airport.json"
+                         "value":"\/@\/bci\/hub_airport\/terminal"
                         }],
                  "type":"tilelayer",
                  "visible":true,
