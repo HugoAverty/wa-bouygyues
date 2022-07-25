@@ -24,7 +24,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/bci\/hub_airport\/welcome"
+                 "value":"\/@\/bci\/hub_airport\/terminal#entryControl"
                 }],
          "type":"tilelayer",
          "visible":true,
