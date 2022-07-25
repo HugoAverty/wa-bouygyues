@@ -3877,7 +3877,7 @@
         {
          "columns":16,
          "firstgid":265657,
-         "image":"tilesets\/LimZu\/LimZ_Office.png",
+         "image":"tilesets\/limzu\/LimZ_Office.png",
          "imageheight":1696,
          "imagewidth":512,
          "margin":0,
@@ -3891,7 +3891,7 @@
         {
          "columns":16,
          "firstgid":266505,
-         "image":"tilesets\/LimZu\/LimZ_Hospital.png",
+         "image":"tilesets\/limzu\/LimZ_Hospital.png",
          "imageheight":3520,
          "imagewidth":512,
          "margin":0,
@@ -3905,7 +3905,7 @@
         {
          "columns":16,
          "firstgid":268265,
-         "image":"tilesets\/LimZu\/LimZ_LivingRoom.png",
+         "image":"tilesets\/limzu\/LimZ_LivingRoom.png",
          "imageheight":1440,
          "imagewidth":512,
          "margin":0,
