@@ -10,7 +10,6 @@ let popBar: any = undefined;
 let popNFT: any = undefined;
 let popGate: any = undefined;
 
-let urlTropical: any = undefined;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
@@ -22,8 +21,7 @@ WA.onInit().then(() => {
                 label: "Tropical",
                 className: "primary",
                 callback: () => {
-                    urlTropical = WA.nav.openCoWebSite('https://player.vimeo.com/video/680787827');
-                    popComptoir1.close();
+                    WA.nav.openCoWebSite('https://player.vimeo.com/video/680787827');
                 }
             },
             {
@@ -31,7 +29,6 @@ WA.onInit().then(() => {
                 className: "success",
                 callback: () => {
                     WA.nav.openCoWebSite('https://player.vimeo.com/video/684568939/71107d1cc5');
-                    popComptoir1.close();
                 }
             }]
         );
@@ -104,8 +101,7 @@ function closePopUp(){
     if (popComptoir1 !== undefined) {
         popComptoir1.close();
         popComptoir1 = undefined;
-
-        const coWebsites = WA.nav.getCowebSites();
+        WA.nav.closeCoWebsites();
     }
     if (popComptoir2 !== undefined) {
         popComptoir2.close();
