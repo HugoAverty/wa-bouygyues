@@ -9,11 +9,12 @@ let popWelcome: any = undefined;
 // Waiting for the API to be ready
 WA.onInit().then(() => {
 
-    WA.room.onEnterLayer('zoneWecome').subscribe(() => {
-        popWelcome = WA.ui.openPopup("popupWelcome","It's ",[]);
+    WA.room.onEnterLayer('zoneWelcome').subscribe(() => {
+        console.log("HELLO WORLD ");
+        popWelcome = WA.ui.openPopup("popupWelcome","Hi guys, welcome on the BBI travel Hub ! To find your way, consult the map here.",[]);
     })
 
-    WA.room.onLeaveLayer('zoneWecome').subscribe(closePopUp())
+    WA.room.onLeaveLayer('zoneWelcome').subscribe(closePopUp)
 
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
