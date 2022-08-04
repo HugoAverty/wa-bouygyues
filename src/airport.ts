@@ -101,7 +101,6 @@ function closePopUp(){
     if (popComptoir1 !== undefined) {
         popComptoir1.close();
         popComptoir1 = undefined;
-        WA.nav.closeCoWebsites();
     }
     if (popComptoir2 !== undefined) {
         popComptoir2.close();
