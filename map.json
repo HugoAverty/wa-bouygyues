@@ -148,7 +148,7 @@
                         {
                          "name":"playAudio",
                          "type":"string",
-                         "value":"src\/sounds\/birds.mp3"
+                         "value":"https:\/\/github.com\/HugoAverty\/wa-bouygyues\/raw\/master\/src\/sounds\/birds.mp3"
                         }],
                  "type":"tilelayer",
                  "visible":true,
