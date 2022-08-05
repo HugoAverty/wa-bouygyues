@@ -467,7 +467,7 @@
                         {
                          "name":"default",
                          "type":"string",
-                         "value":""
+                         "value":"src\/files\/map.pdf"
                         }, 
                         {
                          "name":"label",
@@ -495,7 +495,7 @@
                         {
                          "name":"default",
                          "type":"string",
-                         "value":""
+                         "value":"src\/files\/map.pdf"
                         }, 
                         {
                          "name":"label",
@@ -551,7 +551,7 @@
                         {
                          "name":"default",
                          "type":"string",
-                         "value":""
+                         "value":"src\/files\/map.pdf"
                         }, 
                         {
                          "name":"label",
