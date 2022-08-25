@@ -92,10 +92,10 @@ WA.onInit().then(() => {
     WA.room.onEnterLayer('zoneSecurity').subscribe(() => {
         popSecurity = WA.ui.openPopup("securityPopup","You want to know the secret life of your suitcase? We explain it all here!",[
             {
-                label: "Watch",
+                label: "YES",
                 className: "primary",
                 callback: async () => {
-                    websiteSecurity = await WA.nav.openCoWebSite('https://player.vimeo.com/video/452151588');
+                    websiteSecurity = await WA.nav.openCoWebSite('https://player.vimeo.com/video/531707800');
                 }
             }
         ]);
