@@ -9,7 +9,16 @@ let popComptoir2: any = undefined;
 let popBar: any = undefined;
 let popNFT: any = undefined;
 let popGate: any = undefined;
+let popSecurity: any = undefined;
 
+let websiteTropical: any = undefined;
+let websiteCaribbean: any = undefined;
+let websiteBeach: any = undefined;
+let websiteCulture: any = undefined;
+let websiteNO: any = undefined;
+let websiteYES: any = undefined;
+let websiteWatch: any = undefined;
+let websiteSecurity: any = undefined;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
@@ -20,15 +29,15 @@ WA.onInit().then(() => {
             [{
                 label: "Tropical",
                 className: "primary",
-                callback: () => {
-                    WA.nav.openCoWebSite('https://player.vimeo.com/video/680787827');
+                callback: async () => {
+                    websiteTropical = await WA.nav.openCoWebSite('https://player.vimeo.com/video/680787827');
                 }
             },
             {
                 label: "Caribbean",
                 className: "success",
-                callback: () => {
-                    WA.nav.openCoWebSite('https://player.vimeo.com/video/684568939/71107d1cc5');
+                callback: async () => {
+                    websiteCaribbean = await WA.nav.openCoWebSite('https://player.vimeo.com/video/684568939');
                 }
             }]
         );
@@ -38,56 +47,68 @@ WA.onInit().then(() => {
             {
                 label: "Beach",
                 className: "primary",
-                callback: () => {
-                    WA.nav.openCoWebSite('https://vimeo.com/manage/videos/554125018/eed15f29a1');
+                callback: async () => {
+                    websiteBeach = await WA.nav.openCoWebSite('https://player.vimeo.com/video/554125018');
                 }
             },
             {
                 label: "Culture",
                 className: "success",
-                callback: () => {
-                    WA.nav.openCoWebSite('https://vimeo.com/435014076');
+                callback: async () => {
+                    websiteCulture = await WA.nav.openCoWebSite('https://player.vimeo.com/video/435014076');
                 }
             }
-            ]);    })
+            ]);    
+    })
     WA.room.onEnterLayer('zoneBar').subscribe(() => {
-        popBar = WA.ui.openPopup("barPopup","You want to get high before you get in the air?",[
+        popBar = WA.ui.openPopup("barPopup","Hello, I’m Tom, want to travel back to the 80’s ?",[
             {
                 label: "NO",
                 className: "primary",
-                callback: () => {
-                    WA.nav.openCoWebSite('https://www.youtube.com/watch?v=5YbjzztYbUo');
+                callback: async () => {
+                    closePopUp();
                 }
             },
             {
                 label: "YES",
                 className: "success",
-                callback: () => {
-                    WA.nav.openCoWebSite('https://www.youtube.com/watch?v=5YbjzztYbUo');
+                callback: async () => {
+                    websiteYES = await WA.nav.openCoWebSite('https://www.youtube.com/embed/5YbjzztYbUo');
                 }
             }
         ]);
     })
     WA.room.onEnterLayer('zoneGate').subscribe(() => {
-        popGate = WA.ui.openPopup("gatePopup","You want to know the secret life of your suitcase? We explain it all here!",[
+        popSecurity = WA.ui.openPopup("gatePopup","You want to know the secret life of your suitcase? We explain it all here!",[
             {
                 label: "Watch",
                 className: "primary",
-                callback: () => {
-                    WA.nav.openCoWebSite('https://vimeo.com/452151588');
+                callback: async () => {
+                    websiteWatch = await WA.nav.openCoWebSite('https://player.vimeo.com/video/452151588');
+                }
+            }
+        ]);
+    })
+    WA.room.onEnterLayer('zoneSecurity').subscribe(() => {
+        popSecurity = WA.ui.openPopup("securityPopup","You want to know the secret life of your suitcase? We explain it all here!",[
+            {
+                label: "Watch",
+                className: "primary",
+                callback: async () => {
+                    websiteSecurity = await WA.nav.openCoWebSite('https://player.vimeo.com/video/452151588');
                 }
             }
         ]);
     })
     WA.room.onEnterLayer('zoneNFT').subscribe(() => {
         popNFT = WA.ui.openPopup("nftPopup","NFT supply in progress...stay tuned!",[]);
-        console.log('zoneNFT');
     })
 
     WA.room.onLeaveLayer('zoneComptoir1').subscribe(closePopUp)
     WA.room.onLeaveLayer('zoneComptoir2').subscribe(closePopUp)
     WA.room.onLeaveLayer('zoneBar').subscribe(closePopUp)
     WA.room.onLeaveLayer('zoneNFT').subscribe(closePopUp)
+    WA.room.onLeaveLayer('zoneSecurity').subscribe(closePopUp)
     WA.room.onLeaveLayer('zoneGate').subscribe(closePopUp)
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
@@ -98,6 +119,30 @@ WA.onInit().then(() => {
 }).catch(e => console.error(e));
 
 function closePopUp(){
+    if (websiteSecurity !== undefined) {
+        websiteSecurity.close();
+    }
+    if (websiteTropical !== undefined) {
+        websiteTropical.close();
+    }
+    if (websiteCaribbean !== undefined) {
+        websiteCaribbean.close();
+    }
+    if (websiteBeach !== undefined) {
+        websiteBeach.close();
+    }
+    if (websiteCulture !== undefined) {
+        websiteCulture.close();
+    }
+    if (websiteNO !== undefined) {
+        websiteNO.close();
+    }
+    if (websiteYES !== undefined) {
+        websiteYES.close();
+    }
+    if (websiteWatch !== undefined) {
+        websiteWatch.close();
+    }
     if (popComptoir1 !== undefined) {
         popComptoir1.close();
         popComptoir1 = undefined;
@@ -117,6 +162,10 @@ function closePopUp(){
     if (popGate !== undefined) {
         popGate.close();
         popGate = undefined;
+    }
+    if (popSecurity !== undefined) {
+        popSecurity.close();
+        popSecurity = undefined;
     }
 }
 
