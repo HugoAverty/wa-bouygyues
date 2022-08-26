@@ -37,7 +37,7 @@ WA.onInit().then(() => {
                 label: "Caribbean",
                 className: "success",
                 callback: async () => {
-                    websiteCaribbean = await WA.nav.openCoWebSite('https://player.vimeo.com/video/684568939');
+                    websiteCaribbean = await WA.nav.openCoWebSite('https://player.vimeo.com/video/684568939?h=71107d1cc5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
                 }
             }]
         );
