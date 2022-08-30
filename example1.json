@@ -762,7 +762,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":""
+         "value":"src\/example.ts"
         }, 
         {
          "name":"tutorial",
