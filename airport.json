@@ -334,7 +334,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"\/@\/bci\/hub_airport\/example1"
+                         "value":"\/@\/bci\/hub_airport\/university"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -352,7 +352,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"\/@\/bci\/hub_airport\/example2"
+                         "value":"\/@\/bci\/hub_airport\/startup"
                         }],
                  "type":"tilelayer",
                  "visible":true,
