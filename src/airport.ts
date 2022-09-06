@@ -79,7 +79,7 @@ WA.onInit().then(() => {
         ]);
     })
     WA.room.onEnterLayer('zoneGate').subscribe(() => {
-        popSecurity = WA.ui.openPopup("gatePopup","You want to know the secret life of your suitcase? We explain it all here!",[
+        popGate = WA.ui.openPopup("gatePopup","You want to know the secret life of your suitcase? We explain it all here!",[
             {
                 label: "Watch",
                 className: "primary",
@@ -90,7 +90,7 @@ WA.onInit().then(() => {
         ]);
     })
     WA.room.onEnterLayer('zoneSecurity').subscribe(() => {
-        popSecurity = WA.ui.openPopup("securityPopup","You want to know the secret life of your suitcase? We explain it all here!",[
+        popSecurity = WA.ui.openPopup("securityPopup","At the BBI, we made great airports! Want to see the proof in the pudding?",[
             {
                 label: "YES",
                 className: "primary",
