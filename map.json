@@ -65,8 +65,8 @@
                          "properties":[
                                 {
                                  "name":"default",
-                                 "type":"string",
-                                 "value":"https:\/\/www.bouyguesbatimentinternational.com\/references\/"
+                                 "type":"file",
+                                 "value":""
                                 }, 
                                 {
                                  "name":"openWebsite",
@@ -612,12 +612,6 @@
                  "y":1618
                 }],
          "opacity":1,
-         "properties":[
-                {
-                 "name":"tag",
-                 "type":"string",
-                 "value":"admin"
-                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
