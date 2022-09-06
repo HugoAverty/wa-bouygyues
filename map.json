@@ -508,7 +508,7 @@
                         {
                          "name":"default",
                          "type":"string",
-                         "value":"src\/files\/map.pdf"
+                         "value":"https:\/\/github.com\/HugoAverty\/wa-bouygyues\/raw\/master\/src\/files\/map.pdf"
                         }, 
                         {
                          "name":"label",
