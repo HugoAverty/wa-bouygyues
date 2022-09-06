@@ -65,8 +65,8 @@
                          "properties":[
                                 {
                                  "name":"default",
-                                 "type":"file",
-                                 "value":""
+                                 "type":"string",
+                                 "value":"https:\/\/www.bouyguesbatimentinternational.com\/references\/"
                                 }, 
                                 {
                                  "name":"openWebsite",
@@ -564,7 +564,7 @@
                         {
                          "name":"default",
                          "type":"string",
-                         "value":"src\/files\/map.pdf"
+                         "value":"https:\/\/acrobat.adobe.com\/link\/review?uri=urn:aaid:scds:US:59781bf7-1fff-3cc3-b7d7-38605a5e7813"
                         }, 
                         {
                          "name":"label",
