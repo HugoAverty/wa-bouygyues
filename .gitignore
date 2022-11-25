@@ -26,3 +26,4 @@ dist-ssr
 #Custom ignores
 docs/*
 *.psd
+tilesets/exterior/.Ext_Road.png.icloud

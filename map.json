@@ -64,11 +64,6 @@
                          "opacity":1,
                          "properties":[
                                 {
-                                 "name":"default",
-                                 "type":"string",
-                                 "value":"https:\/\/www.bouyguesbatimentinternational.com\/references\/"
-                                }, 
-                                {
                                  "name":"openWebsite",
                                  "type":"string",
                                  "value":"{{{ construction }}}"
@@ -536,7 +531,7 @@
                         {
                          "name":"default",
                          "type":"string",
-                         "value":"src\/files\/map.pdf"
+                         "value":"files\/map.pdf"
                         }, 
                         {
                          "name":"label",
@@ -592,7 +587,7 @@
                         {
                          "name":"default",
                          "type":"string",
-                         "value":"src\/files\/map.pdf"
+                         "value":"https:\/\/www.bouyguesbatimentinternational.com\/references"
                         }, 
                         {
                          "name":"label",
