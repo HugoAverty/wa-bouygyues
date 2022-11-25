@@ -531,7 +531,7 @@
                         {
                          "name":"default",
                          "type":"string",
-                         "value":"files\/map.pdf"
+                         "value":" "
                         }, 
                         {
                          "name":"label",
@@ -559,7 +559,7 @@
                         {
                          "name":"default",
                          "type":"string",
-                         "value":"https:\/\/cognitgo.fr\/map.pdf"
+                         "value":"files\/map.pdf"
                         }, 
                         {
                          "name":"label",
