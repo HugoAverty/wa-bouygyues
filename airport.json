@@ -132,7 +132,7 @@
                                 {
                                  "name":"openWebsite",
                                  "type":"string",
-                                 "value":"https:\/\/gamesnacks.com\/embed\/games\/rodeostampede"
+                                 "value":"mariohtml5-master\/main.html"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -150,7 +150,7 @@
                                 {
                                  "name":"openWebsite",
                                  "type":"string",
-                                 "value":"https:\/\/gamesnacks.com\/embed\/games\/tilesofegypt"
+                                 "value":"hextris-gh-pages\/index.html"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -168,7 +168,7 @@
                                 {
                                  "name":"openWebsite",
                                  "type":"string",
-                                 "value":"https:\/\/gamesnacks.com\/embed\/games\/billiardsclassic"
+                                 "value":"2048-master\/index.html"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -186,7 +186,7 @@
                                 {
                                  "name":"openWebsite",
                                  "type":"string",
-                                 "value":"https:\/\/gamesnacks.com\/embed\/games\/naturestrikesback"
+                                 "value":"javascript-racer-master\/v4.final.html"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
