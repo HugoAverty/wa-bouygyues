@@ -952,7 +952,7 @@
                 {
                  "name":"doorVariable",
                  "type":"string",
-                 "value":"doorLeft"
+                 "value":"door_left"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -5316,7 +5316,7 @@
                  "class":"variable",
                  "height":0,
                  "id":34,
-                 "name":"doorLeft",
+                 "name":"door_left",
                  "point":true,
                  "properties":[
                         {
@@ -5342,7 +5342,7 @@
                         {
                          "name":"persist",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }],
                  "rotation":0,
                  "visible":true,
@@ -5380,7 +5380,7 @@
                         {
                          "name":"persist",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }],
                  "rotation":0,
                  "visible":true,
