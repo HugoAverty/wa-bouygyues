@@ -5354,7 +5354,7 @@
                  "class":"variable",
                  "height":0,
                  "id":35,
-                 "name":"doorRight",
+                 "name":"door_right",
                  "point":true,
                  "properties":[
                         {
