@@ -1072,7 +1072,7 @@
                 {
                  "name":"doorVariable",
                  "type":"string",
-                 "value":"doorRight"
+                 "value":"door_right"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -5316,7 +5316,7 @@
                  "class":"variable",
                  "height":0,
                  "id":34,
-                 "name":"doorLeft",
+                 "name":"door_left",
                  "point":true,
                  "properties":[
                         {
@@ -5354,7 +5354,7 @@
                  "class":"variable",
                  "height":0,
                  "id":35,
-                 "name":"doorRight",
+                 "name":"door_right",
                  "point":true,
                  "properties":[
                         {
