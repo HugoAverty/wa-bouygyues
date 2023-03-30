@@ -1,0 +1,1 @@
+import{b as r}from"./init.53800ded.js";console.log("Script started successfully");WA.onInit().then(()=>{r().then(()=>{console.log("Scripting API Extra ready")}).catch(o=>console.error(o))}).catch(o=>console.error(o));
